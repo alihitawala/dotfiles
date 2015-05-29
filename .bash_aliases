@@ -8,5 +8,5 @@ alias fgrep='fgrep --color=auto'
 
 alias l='ls -CF'
 alias la='ls -A'
-alias ll='ls -alF'
+alias ll='ls -lF'
 alias ls='ls -G'
