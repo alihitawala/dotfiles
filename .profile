@@ -56,7 +56,7 @@ function parse_git_dirty {
     fi
 }
 
-export PS1="\[\e[35m\]\u\[\e[m\]@\[\e[33m\]\h\[\e[m\] \[\e[32m\]\W\[\e[m\] \[\e[36m\]\`parse_git_branch\`\[\e[m\]$ "
+export PS1="\[\e[1;35m\]\u\[\e[m\]@\[\e[1;33m\]\h\[\e[m\] \[\e[1;32m\]\W\[\e[m\] \[\e[1;36m\]\`parse_git_branch\`\[\e[m\]$ "
 
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;38;5;208m'
