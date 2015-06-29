@@ -1,6 +1,4 @@
-#
 # ~/.bash_aliases
-#
 
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
