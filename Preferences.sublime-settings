@@ -1,11 +1,16 @@
-// Settings in here override those in "Default/Preferences.sublime-settings",
-// and are overridden in turn by file type specific settings.
 {
-    "font_face": "Sauce Code Powerline",
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true,
-    "word_wrap": true,
-    "wrap_width": 120,
-    "rulers": [120],
-    "scroll_past_end": true
+	"font_face": "Sauce Code Powerline",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		120
+	],
+	"scroll_past_end": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true,
+	"wrap_width": 120
 }
