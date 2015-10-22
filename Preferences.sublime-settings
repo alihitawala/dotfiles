@@ -1,16 +1,16 @@
 {
-	"font_face": "Source Code Pro",
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"rulers":
-	[
-		120
-	],
-	"scroll_past_end": true,
-	"tab_size": 4,
-	"translate_tabs_to_spaces": true,
-	"word_wrap": true,
-	"wrap_width": 120
+    "font_face": "Source Code Pro",
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "rulers":
+    [
+        120
+    ],
+    "scroll_past_end": true,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "word_wrap": true,
+    "wrap_width": 120
 }
