@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+/usr/bin/git clone git://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
+
+if [ -f $HOME/.zshrc ] ; then
+    cp $HOME/.zshrc $HOME/.zshrc.orig
+fi
+
+cp $HOME/.oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc
+
+/usr/bin/chsh -s /bin/zsh
