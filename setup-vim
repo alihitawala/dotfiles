@@ -3,8 +3,11 @@
 pushd $HOME
 
 # Set up pathogen
-/bin/mkdir -p .vim/autoload .vim/bundle
+/bin/mkdir -p .vim/autoload .vim/bundle .vim/colors
 curl -LSso .vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+# Get solarized color scheme
+curl -LSso .vim/colors/solarized.vim https://github.com/altercation/vim-colors-solarized/blob/master/colors/solarized.vim
 
 pushd .vim/bundle
 

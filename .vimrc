@@ -126,15 +126,13 @@ set foldcolumn=1
 " Enable syntax highlighting
 syntax enable 
 
+set t_Co=256
+set background=dark
+
 try
-    colorscheme ron
+    colorscheme solarized
 catch
 endtry
-
-set t_Co=256
-
-set background=dark
-highlight Normal ctermfg=white ctermbg=black
 
 " Set extra options when running in GUI mode
 if has("gui_running")
