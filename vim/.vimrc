@@ -130,7 +130,7 @@ set t_Co=256
 set background=dark
 
 try
-    colorscheme solarized
+    colorscheme ron
 catch
 endtry
 
