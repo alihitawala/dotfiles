@@ -129,11 +129,6 @@ syntax enable
 set t_Co=256
 set background=dark
 
-try
-    colorscheme ron
-catch
-endtry
-
 " Set extra options when running in GUI mode
 if has("gui_running")
     set guioptions-=T
