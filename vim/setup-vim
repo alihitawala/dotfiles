@@ -3,11 +3,9 @@
 pushd $HOME
 
 # Set up pathogen
-/bin/mkdir -p .vim/autoload .vim/bundle .vim/colors
+/bin/mkdir -p .vim/autoload .vim/bundle
 curl -LSso .vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
-# Get solarized color scheme
-curl -LSso .vim/colors/solarized.vim https://raw.githubusercontent.com/altercation/vim-colors-solarized/master/colors/solarized.vim
 pushd .vim/bundle
 
 # Set up NERDTree
