@@ -127,7 +127,8 @@ set foldcolumn=1
 syntax enable 
 
 set t_Co=256
-set background=dark
+set bg=dark
+highlight Normal ctermbg=black ctermfg=white
 
 " Set extra options when running in GUI mode
 if has("gui_running")
