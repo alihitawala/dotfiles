@@ -2,21 +2,7 @@
 
 pushd $HOME
 
-# Set up pathogen
-/bin/mkdir -p .vim/autoload .vim/bundle
-curl -LSso .vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-
-pushd .vim/bundle
-
-# Set up NERDTree
-/usr/bin/git clone https://github.com/scrooloose/nerdtree.git
-
-# Set up vim-airline
-/usr/bin/git clone https://github.com/bling/vim-airline
-
-# Set up vim-fugitive
-/usr/bin/git clone git://github.com/tpope/vim-fugitive.git
-
-popd
+# Set up Vundle
+/usr/bin/git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 popd
