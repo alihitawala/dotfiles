@@ -82,9 +82,6 @@ filetype plugin indent on    " required
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Trinity Settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:NERDTreeWinPos = "left"
-let g:Tlist_Use_Right_Window=1
-
 " Open and close all the three plugins on the same time
 nmap <F10>  :TrinityToggleAll<CR>
 
