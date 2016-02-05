@@ -60,7 +60,7 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 Plugin 'wesleyche/SrcExpl'
 Plugin 'taglist.vim'
-Plugin 'wesleyche/Trinity'
+Plugin 'bohanl/Trinity'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 
