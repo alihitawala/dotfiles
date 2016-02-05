@@ -218,10 +218,6 @@ set foldcolumn=1
 " Enable syntax highlighting
 syntax enable
 
-set t_Co=256
-set bg=dark
-highlight Normal ctermbg=black ctermfg=white
-
 " Set extra options when running in GUI mode
 if has("gui_running")
     set guioptions-=T
@@ -437,10 +433,6 @@ map <leader>x :e ~/buffer.md<cr>
 
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
-
-" Open a NERDTree automatically when vim starts up if no files were specified
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Close vim if the only window left open is a NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
