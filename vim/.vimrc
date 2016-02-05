@@ -59,8 +59,8 @@ Plugin 'VundleVim/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 Plugin 'wesleyche/SrcExpl'
-Plugin 'wesleyche/Trinity'
 Plugin 'taglist.vim'
+Plugin 'wesleyche/Trinity'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 
