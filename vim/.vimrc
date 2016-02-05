@@ -82,17 +82,20 @@ filetype plugin indent on    " required
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Trinity Settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:NERDTreeWinPos = "left"
+let g:Tlist_Use_Right_Window=1
+
 " Open and close all the three plugins on the same time
-nmap <F8>  :TrinityToggleAll<CR>
-
-" Open and close the Source Explorer separately
-nmap <F9>  :TrinityToggleSourceExplorer<CR>
-
-" Open and close the Taglist separately
-nmap <F10> :TrinityToggleTagList<CR>
+nmap <F10>  :TrinityToggleAll<CR>
 
 " Open and close the NERD Tree separately
-nmap <F11> :TrinityToggleNERDTree<CR>
+nmap <F9> :TrinityToggleNERDTree<CR>
+
+" Open and close the Source Explorer separately
+nmap <F8>  :TrinityToggleSourceExplorer<CR>
+
+" Open and close the Taglist separately
+nmap <F7> :TrinityToggleTagList<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => SrcExpl Settings

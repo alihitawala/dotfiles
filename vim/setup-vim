@@ -1,9 +1,13 @@
 #!/bin/zsh
 
+cp .vimrc $HOME/
+
 pushd $HOME
 
 # Set up Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+vim +PluginInstall +qall
 
 # Set up cscope
 mkdir -p $HOME/.vim/plugin
