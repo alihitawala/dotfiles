@@ -69,7 +69,7 @@ Plugin 'taglist.vim'
 Plugin 'bohanl/Trinity'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
-Plugin 'valloric/YouCompleteMe'
+Plugin 'ervandew/supertab'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
