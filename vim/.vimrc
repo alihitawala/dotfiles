@@ -70,6 +70,8 @@ Plugin 'bohanl/Trinity'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'ervandew/supertab'
+Plugin 'ctrlp.vim'
+Plugin 'a.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
