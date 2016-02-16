@@ -70,6 +70,7 @@ Plugin 'bohanl/Trinity'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'ervandew/supertab'
+Plugin 'vimwiki/vimwiki'
 Plugin 'ctrlp.vim'
 Plugin 'a.vim'
 
