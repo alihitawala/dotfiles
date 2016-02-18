@@ -92,17 +92,17 @@ filetype plugin indent on    " required
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Trinity Settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Open and close all the three plugins on the same time
-nmap <F10>  :TrinityToggleAll<CR>
+" Open and close the Source Explorer separately
+nmap <F7> :TrinityToggleSourceExplorer<CR>
 
 " Open and close the NERD Tree separately
-nmap <F9> :TrinityToggleNERDTree<CR>
-
-" Open and close the Source Explorer separately
-nmap <F8>  :TrinityToggleSourceExplorer<CR>
+nmap <F8> :TrinityToggleNERDTree<CR>
 
 " Open and close the Taglist separately
-nmap <F7> :TrinityToggleTagList<CR>
+nmap <F9> :TrinityToggleTagList<CR>
+
+" Open and close all the three plugins on the same time
+nmap <F10> :TrinityToggleAll<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => SrcExpl Settings
