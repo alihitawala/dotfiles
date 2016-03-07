@@ -1,0 +1,14 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+my %hosts = (
+    # [target] => hostname/IP
+);
+
+die "Usage: ssh2 [target]\n" unless $#ARGV == 0;
+
+my $host = $hosts{$ARGV[0]} or die "invalid target\n";
+
+exec "/usr/bin/ssh $host";
