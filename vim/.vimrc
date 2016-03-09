@@ -48,6 +48,16 @@ nmap <leader>w :w!<cr>
 command W w !sudo tee % > /dev/null
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => C/C++
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Enables automatic C program indenting
+set cindent
+
+" Place C++ scope declarations 0 characters from the indent of the
+" block they are in
+set cinoptions=g0
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vundle
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible              " be iMproved, required
