@@ -1,4 +1,6 @@
 {
+    "font_face": "Sauce Code Powerline",
+    "font_size": 14,
     "ignored_packages":
     [
         "Vintage"
@@ -11,5 +13,20 @@
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
     "word_wrap": true,
-    "wrap_width": 120
+    "wrap_width": 120,
+    "theme": "Boxy Ocean.sublime-theme",
+    "color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+    "always_show_minimap_viewport": true,
+    "bold_folder_labels": true,
+    "caret_extra_bottom": 1,
+    "caret_extra_top": 1,
+    "caret_extra_width": 1,
+    "caret_style": "blink",
+    "fade_fold_buttons": false,
+    "indent_guide_options": ["draw_normal", "draw_active"],
+    "line_padding_bottom": 2,
+    "line_padding_top": 2,
+    "overlay_scroll_bars": "enabled",
+    "show_encoding": true,
+    "show_line_endings": true,
 }
