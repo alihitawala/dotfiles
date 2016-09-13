@@ -1,3 +1,0 @@
-# ~/.zlogin
-
-umask 022

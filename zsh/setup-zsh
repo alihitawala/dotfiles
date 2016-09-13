@@ -6,6 +6,11 @@ if [ -f $HOME/.zshrc ] ; then
     cp $HOME/.zshrc $HOME/.zshrc.orig
 fi
 
+if [ -f $HOME/.zprofile ] ; then
+    cp $HOME/.zprofile $HOME/.zprofile.orig
+    cp .zprofile $HOME/.zprofile
+fi
+
 cp $HOME/.oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc
 
 /usr/bin/chsh -s /bin/zsh

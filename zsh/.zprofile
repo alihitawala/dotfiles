@@ -1,4 +1,6 @@
-# ~/.zshenv
+# ~/.zprofile
+
+umask 022
 
 # Set colors for less
 export LESS_TERMCAP_mb=$'\E[01;31m'
