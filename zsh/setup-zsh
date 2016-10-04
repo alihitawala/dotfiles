@@ -1,16 +1,10 @@
 #!/bin/zsh
 
-/usr/bin/git clone git://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
+/usr/bin/git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
-if [ -f $HOME/.zshrc ] ; then
-    cp $HOME/.zshrc $HOME/.zshrc.orig
-fi
-
-if [ -f $HOME/.zprofile ] ; then
-    cp $HOME/.zprofile $HOME/.zprofile.orig
-    cp .zprofile $HOME/.zprofile
-fi
-
-cp $HOME/.oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc
+setopt EXTENDED_GLOB
+for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+    ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+done
 
 /usr/bin/chsh -s /bin/zsh
